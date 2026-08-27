@@ -5,11 +5,12 @@ files_reports/
 
 # Generated pipeline data
 shivai_results_test/
+shiva_results/
 shivai_results/
 shiva_runs/
 shivai_bids_input_test/
-symlinks_reports/
-shivai_symlinks/
+# symlinks_reports/
+# shivai_symlinks/
 synthseg/
 
 
@@ -20,8 +21,8 @@ shiva_symlinks_1.py
 shiva_symlinks_0.py 
 debug_ants_transform.txt
 display_pklz.py 
-exluded_subjects.csv
-submit_batches_0.py 
+excluded_subjects.csv
+submit_batches_0.sh
 
 #Data 
 
