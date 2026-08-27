@@ -1,1 +1,32 @@
-shiva_results/
+# Generated logs / crashes
+crashes/
+logs/
+
+# Generated pipeline data
+shivai_results_test/
+shivai_results
+
+
+# Raw/test MRI data
+shivai_test/
+
+
+# Downloaded model weights
+models/
+
+# Apptainer/Singularity container
+*.sif
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets / local configuration
+.env
