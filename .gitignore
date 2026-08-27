@@ -9,8 +9,8 @@ shiva_results/
 shivai_results/
 shiva_runs/
 shivai_bids_input_test/
-# symlinks_reports/
-# shivai_symlinks/
+symlinks_reports/
+shivai_symlinks/
 synthseg/
 
 
