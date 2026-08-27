@@ -1,0 +1,31 @@
+model_path: /data/pt_life/ResearchProjects/Sheker/SHiVAi_master/models
+apptainer_image: /data/pt_life/ResearchProjects/Sheker/SHiVAi_master/shivai_0.5.9.sif
+synthseg_image: /data/pt_life/ResearchProjects/Sheker/SHiVAi_master/synthseg.sif
+
+# Docker images (used with --containerized_nodes_docker)
+# docker_image: shivai:latest
+# synthseg_docker_image: synthseg:latest
+container_runtime: singularity # or docker or apptainer (default)
+
+parameters:
+  brainmask_descriptor: "brainmask/model_info.json"
+  PVS_descriptor: "T1-PVS/model_info_t1-pvs-v4.json"
+  PVS2_descriptor: "T1.FLAIR-PVS/model_info_t1-flair-pvs-v4.json"
+  WMH_descriptor: "T1.FLAIR-WMH/model_info_t1-flair-wmh-v2.json"
+  CMB_descriptor: "SWI-CMB/model_info_swi-cmb-v2.json"
+  LAC_descriptor: "T1.FLAIR-LAC/model_info_t1-flair-lac-v0.json"
+  swi_echo: 1
+  percentile: 99.0
+  threshold: 0.5
+  threshold_pvs: 0.5
+  threshold_wmh: 0.2
+  threshold_cmb: 0.5
+  threshold_lac: 0.2
+  min_pvs_size: 5
+  min_wmh_size: 1
+  min_cmb_size: 1
+  min_lac_size: 3
+  final_dimensions: [160, 214, 176]
+  voxels_size: [1.0, 1.0, 1.0]
+  voxels_tolerance: [0, 0, 0]
+  interpolation: 'WelchWindowedSinc'
