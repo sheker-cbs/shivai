@@ -1,11 +1,29 @@
 # Generated logs / crashes
 crashes/
 logs/
+files_reports/
 
 # Generated pipeline data
 shivai_results_test/
-shivai_results
+shivai_results/
+shiva_runs/
+shivai_bids_input_test/
+symlinks_reports/
+shivai_symlinks/
+synthseg/
 
+
+#Scripts
+check_files.sh 
+run_shiva_0.sh
+shiva_symlinks_1.py 
+shiva_symlinks_0.py 
+debug_ants_transform.txt
+display_pklz.py 
+exluded_subjects.csv
+submit_batches_0.py 
+
+#Data 
 
 # Raw/test MRI data
 shivai_test/
